@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            background-color: aqua;
+            height: 80vh;
+            width: 40vh;
+        }
+
+        .box {
+            background-color: black;
+            color: aliceblue;
+            width: 34px;
+            height: 45px;
+            box-sizing: border-box;
+            border: 2px solid green;
+            animation-name: sachin;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0, 0, 0, 0.96);
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+            /* animation-play-state: paused;  */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            /* animation: harryKaAnimation 2s ease-in-out 3s 1, 
+                       harry2 3s ease-in-out 3s 1;
+        */
+        }
+
+        .shell {
+            height: 90px;
+            width: 40px;
+            background-color: black;
+            color: aliceblue;
+            box-sizing: border-box;
+            box-sizing: border-box;
+            border: 2px solid green;
+            animation-name: paudel;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-duration: 3s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-fill-mode: both;
+        }
+
+        @keyframes sachin {
+            from {
+                background-color: balck;
+                transform: translateX(10%);
+            }
+
+            to {
+                background-color: blue;
+                transform: translateX(1000%);
+            }
+        }
+
+        @keyframes paudel {
+            from {
+                transform: translatey(-100%);
+            }
+
+            to {
+                transform: translatey(500%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            hello
+        </div>
+        <div class="shell">
+            bro
+        </div>
+    </div>
+</body>
+
+</html>

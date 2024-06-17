@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: blue;
+    width: 90vw;
+    height: 90vh;
+}
+.circle{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    bottom: 20px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sachin 3s ease-in-out infinite forwards,
+               paudel 3s ease-in-out 3s infinite; 
+    /* animation-name: sachin; */
+    /* animation-duration: 3s;
+    animation-timing-function: ease-in-out; */
+    /* animation-delay: 1s; */
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    /* animation-fill-mode: both; */
+    position: relative;
+    bottom: 60px;
+}
+
+@keyframes sachin{
+    from{
+transform: translateX(10%);
+    }
+    to{
+transform: translatex(500%);
+    }
+}
+@keyframes paudel{
+   0%{
+    transform: translate(0vh ,0vh);
+   }
+   10%{
+    transform: translate(20vh, -30vh);
+   }
+   20%{
+    transform:translate(20vh, 0vh);
+   }
+   30%{
+    transform: translate(30vh, -10vh);
+   }
+   /* 40%{
+    transform: translate(40vh, -30vh);
+   }
+   50%{
+    transform:translate(40vh, -30vh);
+   } */
+   60%{
+
+   }
+   70%{
+
+   }
+80%{
+
+}
+90%{
+
+}
+100%{
+
+}
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="circle">
+
+        </div>
+    </div>
+    <div class="school">
+        <h1>helloo my nname is sachin paudel </h1>
+        <h2>shoot helel</h2>
+    </div>
+    <div class="dance">
+        <h1>dance dance dance</h1>
+    </div>
+    <div class="person">
+        <h1>percification of people</h1>
+    </div>
+    <div class="nostalligic">
+        <h1>nostalligic vibes</h1>
+    </div>
+    <div class="help">
+        <h1>helloster of the people</h1>
+    </div>
+    <div class="nsateler">
+        <h1>percon</h1>
+    </div>
+</body>
+</html>
